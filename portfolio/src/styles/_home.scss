@@ -14,23 +14,8 @@
             font-size: 2rem;
             margin-top: 4rem;
             margin-bottom: 2rem;
-            // overflow: hidden;
             width: 100%;
-            // border-right: .15em solid rgb(255, 83, 232);
             letter-spacing: .03em;
-            // animation: 
-            // typing 3.5s steps(40, end),
-            // blink-caret .75s step-end infinite;
-
-            // @keyframes typing {
-            //     from {width: 0}
-            //     to {width: 100%}
-            // }
-
-            // @keyframes blink-caret  {
-            //    from, to { border-color: transparent ;} 
-            //    50% { border-color: rgb(255, 83, 232);}
-            // }
         }
         &-explain{
             font-weight: 400;
@@ -39,10 +24,10 @@
         }
         img{
             width: 80vw;
-            box-shadow: 0 0 12px 2px rgb(255, 83, 232);
+            box-shadow: 0 0 12px 2px #323232;
             &:hover{
                 cursor: pointer;
-                box-shadow: 0 0 20px 4px rgb(255, 83, 232);
+                box-shadow: 0 0 20px 4px #323232;
 
             }
         }
@@ -65,8 +50,8 @@
 
         button{
             font-family: Georgia, 'Times New Roman', Times, serif;
-            color: rgb(255, 83, 232) ;
-            background-color: white;
+            color: white ;
+            background-color: rgb(46, 46, 46);
             border: none;
             font-size: 1.2rem;
             border-radius: 10px;
@@ -74,10 +59,10 @@
             letter-spacing: 1.5px;
 
             &:hover{
-                color: white;
-                background-color: rgb(255, 83, 232);
+                // color: white;
+                // background-color: rgb(255, 83, 232);
                 cursor: pointer;
-                box-shadow: 0 0 2px 2px rgb(255, 83, 232);
+                box-shadow: 0 0 5px 2px #dddddd;
             }
         }
 
